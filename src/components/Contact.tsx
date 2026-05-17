@@ -64,22 +64,22 @@ export default function Contact({ activeRole }: ContactProps) {
               <ContactRow
                 accent={accent}
                 k="email"
-                v="aryan.jain@example.com"
-                href="mailto:aryan.jain@example.com"
+                v="aryan@aryanjain.dev"
+                href="mailto:aryan@aryanjain.dev"
               />
-              <ContactRow accent={accent} k="github" v="github.com/aryanjain" href="https://github.com/" />
+              <ContactRow accent={accent} k="github" v="github.com/Aryan0Jain" href="https://github.com/Aryan0Jain/" />
               <ContactRow
                 accent={accent}
                 k="linkedin"
-                v="linkedin.com/in/aryanjain"
-                href="https://linkedin.com/"
+                v="linkedin.com/in/aryan0jain"
+                href="https://www.linkedin.com/in/aryan0jain/"
               />
-              <ContactRow accent={accent} k="resume" v="resume.pdf" href="#" />
+              <ContactRow accent={accent} k="resume" v="resume.pdf" href="https://drive.google.com/file/d/1DXDgT2ewS3OekPw0TMXMheuadZFu-XWs/view?usp=sharing" />
             </div>
 
             <div className="mt-7">
               <a
-                href="mailto:aryan.jain@example.com"
+                href="mailto:aryan@aryanjain.dev"
                 className="inline-flex items-center gap-2 rounded-full px-5 py-3 font-medium text-black transition-all hover:-translate-y-0.5"
                 style={{
                   backgroundColor: accent,

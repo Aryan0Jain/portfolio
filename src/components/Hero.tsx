@@ -155,8 +155,9 @@ export default function Hero({ activeRole }: HeroProps) {
             <ArrowIcon />
           </a>
           <a
-            href="#"
-            onClick={(e) => e.preventDefault()}
+            href="https://drive.google.com/file/d/1DXDgT2ewS3OekPw0TMXMheuadZFu-XWs/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/[0.04] px-5 py-3 text-white/85 hover:bg-white/[0.08] hover:text-white transition"
           >
             <DownloadIcon />

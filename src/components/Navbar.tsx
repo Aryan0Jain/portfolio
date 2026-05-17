@@ -94,15 +94,16 @@ export default function Navbar({ activeRole, setActiveRole }: NavbarProps) {
           {/* Right cluster */}
           <div className="flex items-center gap-2">
             <a
-              href="#"
-              onClick={(e) => e.preventDefault()}
+              href="https://drive.google.com/file/d/1DXDgT2ewS3OekPw0TMXMheuadZFu-XWs/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
               className="hidden sm:inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.04] px-3 py-1.5 font-mono text-[12px] text-white/80 hover:text-white hover:bg-white/[0.08] transition"
             >
               <DownloadIcon />
               resume.pdf
             </a>
             <a
-              href="https://github.com/"
+              href="https://github.com/Aryan0Jain/"
               target="_blank"
               rel="noreferrer"
               className="grid place-items-center h-8 w-8 rounded-full border border-white/10 bg-white/[0.04] text-white/70 hover:text-white hover:bg-white/[0.08] transition"
@@ -111,7 +112,7 @@ export default function Navbar({ activeRole, setActiveRole }: NavbarProps) {
               <GithubIcon />
             </a>
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/aryan0jain/"
               target="_blank"
               rel="noreferrer"
               className="grid place-items-center h-8 w-8 rounded-full border border-white/10 bg-white/[0.04] text-white/70 hover:text-white hover:bg-white/[0.08] transition"
